@@ -1,11 +1,16 @@
 .btn.dropdown-toggle {
-    background-color: #99ff99;
+    color: white;
+    background-color: #93e499;
     padding: 0%;
 }
 
 .dropdown-menu {
-    background-color: #66ff66;
-    z-index:1;
+    background-color: #93e49a;
+    display: block;
+}
+
+li {
+    padding-left: 25px;
 }
 
 li:hover{
