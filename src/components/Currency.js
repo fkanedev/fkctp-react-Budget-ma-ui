@@ -22,19 +22,26 @@ const Currency = () => {
 
     return (
         <div className='alert alert-secondary'>
-            <div class="dropdown">
-                <button  class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            <div className="dropdown">
+                <button  className="btn btn-default dropdown-toggle" type="button" data-bs-toggle="dropdown" >
                     <span>Currency ({all_currencies[currency]}) </span>
-                    <span class="caret"></span>
+                    <span className="caret"></span>
                 </button>
-                <ul class="dropdown-menu" onclick={(event) => updateCurrency(event.target.value)}>
-                    <li name="$ Dollar" value="$" >$ Dollar</li>
-                    <li name="£ Pound" value="£" >£ Pound</li>
-                    <li name="€ Euro" value="€" >€ Euro</li>
-                    <li name="₹ Ruppee" value="₹" >₹ Ruppee</li>
+                <ul className="dropdown-menu" onClick={(event) => updateCurrency(event.target.value)}>
+                    
+                    <li><button className="dropdown-item" type="button">Action</button></li>
+                    <li><button className="dropdown-item" type="button">Another action</button></li>
+                    <li><button className="dropdown-item" type="button">Something else here</button></li>
                 </ul>
             </div>
         </div>
     );
 };
 export default Currency;
+
+/*
+<li name="$ Dollar" value="$" >$ Dollar</li>
+                    <li name="£ Pound" value="£" >£ Pound</li>
+                    <li name="€ Euro" value="€" >€ Euro</li>
+                    <li name="₹ Ruppee" value="₹" >₹ Ruppee</li>
+*/
