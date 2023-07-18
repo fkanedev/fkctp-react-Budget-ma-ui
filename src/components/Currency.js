@@ -28,10 +28,10 @@ const Currency = () => {
                     <span className="caret"></span>
                 </button>
                 <ul className="dropdown-menu" onClick={(event) => updateCurrency(event.target.value)}>
-                    
-                    <li><button className="dropdown-item" type="button">Action</button></li>
-                    <li><button className="dropdown-item" type="button">Another action</button></li>
-                    <li><button className="dropdown-item" type="button">Something else here</button></li>
+                    <li><button className="dropdown-item" type="button" value="$" >$ Dollar</button></li>
+                    <li><button className="dropdown-item" type="button" value="£">£ Pound</button></li>
+                    <li><button className="dropdown-item" type="button" value="€">€ Euro</button></li>
+                    <li><button className="dropdown-item" type="button" value="₹">₹ Ruppee</button></li>
                 </ul>
             </div>
         </div>

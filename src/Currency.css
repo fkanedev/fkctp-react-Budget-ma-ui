@@ -1,6 +1,6 @@
 .dropdown {
     display:block;
-    overflow: visible;
+    
 }
 .btn.dropdown-toggle {
     color: white;
@@ -9,16 +9,16 @@
 }
 
 .dropdown-menu {
-    /*overflow: visible;*/
-    display:block;
+    overflow: visible;
+    /*display:block;*/
     background-color: #93e49a;
 }
 
 li {
     display:block;
-   /* padding-left: 25px;*/
+  
 }
-
+/* 
 .dropdown-item:hover{
     background-color: white;
-}
+} */
