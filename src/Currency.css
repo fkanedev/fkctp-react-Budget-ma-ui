@@ -1,0 +1,13 @@
+.btn.dropdown-toggle {
+    background-color: #99ff99;
+    padding: 0%;
+}
+
+.dropdown-menu {
+    background-color: #66ff66;
+    z-index:1;
+}
+
+li:hover{
+    background-color: white;
+}
