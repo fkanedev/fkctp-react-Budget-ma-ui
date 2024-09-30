@@ -7,6 +7,10 @@
 
 This project involves developing a budgeting application using React.js. It showcases the implementation of a user-friendly interface for managing company's finances as well as allocating budget. This project is part of my training in the [IBM Full Stack Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer), utilizing a [template](https://github.com/ibm-developer-skills-network/ejtos-react_budget_app) provided by IBM Developer Skills Network.
 
+# Topics
+
+`React`, `Bootstrap`, `Node.js`, `Budgeting`, `Finance Management`, `Context API`, `CRUD`, `JavaScript`, `MIT License`, `IBM Full Stack Software Developer Professional Certificate`
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
